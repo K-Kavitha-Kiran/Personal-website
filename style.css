@@ -1,0 +1,67 @@
+ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  background-image: url(https://cdn.pixabay.com/photo/2015/09/09/19/56/office-932926_960_720.jpg);
+  height: 80vh;
+  background-size: cover;
+}
+
+ul {
+  float: right;
+  list-style: none;
+  margin-top: 25px;
+  padding-right: 20px;
+}
+
+ul li {
+  /* text-decoration: none;
+  color: rgb(184, 100, 100);
+  border: 1px solid transparent; */
+  display: inline-block;
+  padding: 15px;
+}
+
+ul li a:hover {
+  background-color: #ffffff;
+  color: black;
+}
+
+ul li.active a {
+  background-color: #ffffff;
+  color: black;
+}
+
+.title h1 span {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  overflow: hidden;
+  text-align: center;
+  transform: translate(-50%, 50%);
+}
+
+.container {
+  position: absolute;
+  flex-wrap: wrap;
+  top: 95%;
+  justify-content: space-between;
+  padding-bottom: 50px;
+  display: flex;
+}
+
+.container .box {
+  position: absolute;
+
+  width: 300px;
+  min-width: 200px;
+  flex-direction: column;
+  background: rgb(230, 170, 61);
+  border-radius: 4px;
+  margin: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: 10px;
+}
